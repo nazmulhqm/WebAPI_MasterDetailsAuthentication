@@ -14,6 +14,7 @@ using System.Web.Http;
 
 namespace MasterDetailsAuthentication.Controllers
 {
+    [Authorize]
     public class OrderController : ApiController
     {
         private MyDbContext _db = new MyDbContext();
