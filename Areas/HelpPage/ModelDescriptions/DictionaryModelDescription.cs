@@ -1,0 +1,6 @@
+namespace MasterDetailsAuthentication.Areas.HelpPage.ModelDescriptions
+{
+    public class DictionaryModelDescription : KeyValuePairModelDescription
+    {
+    }
+}
